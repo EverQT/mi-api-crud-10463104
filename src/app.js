@@ -51,4 +51,6 @@ app.delete('/tasks/:id', (req, res) => {
   res.status(204).send();
 });
 
+const variableSinUsar = "esto causara error de linting";
+
 module.exports = app;
